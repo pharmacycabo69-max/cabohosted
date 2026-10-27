@@ -14,7 +14,7 @@ Everything editable (phone, WhatsApp number, prices, WhatsApp messages, copy for
 Replace `52XXXXXXXXXX` / `phoneDisplay` there first.
 
 ## Photos
-Drop files into `public/photos/` with these exact names. Until they exist, a branded placeholder shows the expected filename.
+All photos listed below are already in `public/photos/` (some are AI-generated placeholders; replace any file keeping the same name). If a file is missing, a branded placeholder shows the expected filename.
 
 | File | Notes |
 |---|---|
@@ -25,12 +25,12 @@ Drop files into `public/photos/` with these exact names. Until they exist, a bra
 | `celebrations-decor.jpg` | 4:3 landscape, min 1200x900 |
 | `celebrations-flowers.jpg` | 4:3 landscape, min 1200x900 |
 | `celebrations-surprise.jpg` | 4:3 landscape, min 1200x900 |
-| `events-birthday.jpg` | 4:3 landscape, min 1200x900 (✅ provided) |
-| `events-mexican-night.jpg` | 4:3 landscape, min 1200x900 (✅ provided) |
-| `events-photo.jpg` | 4:3 landscape, min 1200x900 (✅ provided) |
-| `events-quince.jpg` | 4:3 landscape, min 1200x900 (✅ provided) |
-| `events-ranch.jpg` | Events page, Rancho McCoy overview (4:3) (✅ provided) |
-| `events-wedding.jpg` | 4:3 landscape, min 1200x900 (✅ provided) |
+| `events-birthday.jpg` | 4:3 landscape, min 1200x900 |
+| `events-mexican-night.jpg` | 4:3 landscape, min 1200x900 |
+| `events-photo.jpg` | 4:3 landscape, min 1200x900 |
+| `events-quince.jpg` | 4:3 landscape, min 1200x900 |
+| `events-ranch.jpg` | Events page, Rancho McCoy overview (4:3) |
+| `events-wedding.jpg` | 4:3 landscape, min 1200x900 |
 | `experiences-bartender.jpg` | 4:3 landscape, min 1200x900 |
 | `experiences-chef.jpg` | 4:3 landscape, min 1200x900 |
 | `experiences-kids.jpg` | 4:3 landscape, min 1200x900 |
@@ -43,10 +43,10 @@ Drop files into `public/photos/` with these exact names. Until they exist, a bra
 | `health-labs.jpg` | 4:3 landscape, min 1200x900 |
 | `health-pharmacy.jpg` | 4:3 landscape, min 1200x900 |
 | `health-video.jpg` | 4:3 landscape, min 1200x900 |
-| `hero.jpg` | Home hero, wide villa terrace/ocean (min 2400x1400) (✅ provided) |
+| `hero.jpg` | Home hero, wide villa terrace/ocean (min 2400x1400) |
 | `og.jpg` | Social share image (1200x630) |
 | `pillar-celebrations.jpg` | 4:3 landscape, min 1200x900 |
-| `pillar-events.jpg` | 4:3 landscape, min 1200x900 (✅ provided) |
+| `pillar-events.jpg` | 4:3 landscape, min 1200x900 |
 | `pillar-experiences.jpg` | 4:3 landscape, min 1200x900 |
 | `pillar-health.jpg` | 4:3 landscape, min 1200x900 |
 | `proposal-beach.jpg` | 4:3 landscape, min 1200x900 |
