@@ -392,3 +392,55 @@ export const nav = [
   { href: '/about', label: 'About' },
   { href: '/contact', label: 'Contact' },
 ];
+
+/* --------------------------- Cabo adventures & galleries ------------------- */
+
+export const adventures: Service[] = [
+  {
+    id: 'catamaran',
+    title: 'Catamaran Cruise',
+    desc: 'Sail past El Arco with snorkeling, drinks and room for the whole group.',
+    price: 'Request a quote',
+    photo: 'experiences-catamaran.jpg',
+    wa: "Hi Cabo Hosted! I'd like a catamaran cruise. Date: __ / Guests: __ / Pickup location: __",
+  },
+  {
+    id: 'yacht-dinner',
+    title: 'Private Yacht Dinner',
+    desc: 'Sunset dinner on a private yacht for couples, celebrations and small groups.',
+    price: 'Request a quote',
+    photo: 'experiences-yacht-dinner.jpg',
+    wa: "Hi Cabo Hosted! I'd like a private yacht dinner. Date: __ / Guests: __ / Occasion: __",
+  },
+  {
+    id: 'whales',
+    title: 'Whale Watching',
+    desc: 'Seasonal whale-watching trips off the Los Cabos coast.',
+    price: 'Request a quote',
+    photo: 'experiences-whales.jpg',
+    wa: "Hi Cabo Hosted! I'd like to go whale watching. Date: __ / Guests: __",
+  },
+  {
+    id: 'fishing',
+    title: 'Sport Fishing',
+    desc: 'Half-day and full-day charters, gear and crew included.',
+    price: 'Request a quote',
+    photo: 'experiences-fishing.jpg',
+    wa: "Hi Cabo Hosted! I'd like a sport fishing charter. Date: __ / Guests: __ / Half or full day: __",
+  },
+  {
+    id: 'horseback',
+    title: 'Horseback Beach Ride',
+    desc: 'A guided ride along the beach at golden hour.',
+    price: 'Request a quote',
+    photo: 'experiences-horseback.jpg',
+    wa: "Hi Cabo Hosted! I'd like a horseback ride. Date: __ / Riders: __ / Location: __",
+  },
+];
+
+const gallery = (prefix: string, n: number, alt: string) =>
+  Array.from({ length: n }, (_, i) => ({ src: `${prefix}-${String(i + 1).padStart(2, '0')}.jpg`, alt }));
+
+export const ranchGallery = gallery('gallery-ranch', 9, 'Moments at Rancho McCoy');
+export const venueGallery = gallery('gallery-venue', 6, 'Tables and setup at Rancho McCoy');
+export const photoGallery = gallery('gallery-photo', 6, 'Photo session at Rancho McCoy');

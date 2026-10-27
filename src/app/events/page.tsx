@@ -1,8 +1,9 @@
 import PageHero from '@/components/PageHero';
 import ServiceCard from '@/components/ServiceCard';
 import Photo from '@/components/Photo';
+import Gallery from '@/components/Gallery';
 import FinalCta from '@/components/FinalCta';
-import { eventPackages, venue } from '@/config/site';
+import { eventPackages, photoGallery, ranchGallery, venue, venueGallery } from '@/config/site';
 import { pageMeta } from '@/lib/seo';
 import { t } from '@/i18n/en';
 
@@ -23,7 +24,7 @@ export default function Events() {
       />
       <section className="section">
         <div className="grid items-center gap-8 lg:grid-cols-2">
-          <Photo src="events-ranch.jpg" alt="Rancho McCoy at sunset" className="aspect-[4/3] rounded-3xl" />
+          <Photo src="events-ranch.jpg" alt="Dancing horse show at Rancho McCoy" className="aspect-[4/3] rounded-3xl" />
           <div>
             <h2 className="text-3xl">Why the ranch</h2>
             <ul className="mt-6 space-y-4">
@@ -47,6 +48,15 @@ export default function Events() {
             ))}
           </div>
         </div>
+      </section>
+      <section className="section">
+        <p className="eyebrow">Gallery</p>
+        <h2 className="mt-2 text-3xl sm:text-4xl">Moments at the ranch</h2>
+        <div className="mt-8"><Gallery items={ranchGallery} /></div>
+        <h3 className="mt-14 text-2xl">The venue</h3>
+        <div className="mt-6"><Gallery items={venueGallery} /></div>
+        <h3 className="mt-14 text-2xl">Photo sessions</h3>
+        <div className="mt-6"><Gallery items={photoGallery} /></div>
       </section>
       <FinalCta />
     </>
