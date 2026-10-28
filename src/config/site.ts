@@ -11,9 +11,9 @@ export const site = {
   tagline: 'Your Cabo stay, hosted.',
   description:
     'Villa concierge for Los Cabos: pharmacy delivery, IV therapy, celebrations, private chefs, proposals and ranch events - delivered to your door.',
-  // Digits only, with country code. Replace XXXXXXXXXX with the real number.
-  whatsappNumber: '52XXXXXXXXXX',
-  phoneDisplay: '+52 XXX XXX XXXX',
+  // Digits only, with country code.
+  whatsappNumber: '526242261023',
+  phoneDisplay: '+52 624 226 1023',
   email: 'hello@cabohosted.com',
   hours: 'Daily, 8:00 AM - 10:00 PM (Los Cabos time)',
   responseTime: '20-60 min',

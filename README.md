@@ -11,7 +11,7 @@ npm run dev
 
 ## Edit content
 Everything editable (phone, WhatsApp number, prices, WhatsApp messages, copy for services) lives in `src/config/site.ts`.
-Replace `52XXXXXXXXXX` / `phoneDisplay` there first.
+WhatsApp number and display phone are already set there.
 
 ## Photos
 All photos listed below are already in `public/photos/` (some are AI-generated placeholders; replace any file keeping the same name). If a file is missing, a branded placeholder shows the expected filename.
